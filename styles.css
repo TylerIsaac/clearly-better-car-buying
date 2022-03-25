@@ -1,0 +1,172 @@
+@import url("https://use.typekit.net/vuj1tbw.css");
+
+.main-wrapper {
+  display: grid;
+  grid-template-columns: auto;
+  font-family: latinaires, sans-serif;
+}
+
+.header-container {
+  background-color: black;
+  padding: 15% 0;
+}
+
+.body-container {
+}
+
+.center {
+  text-align: center;
+}
+
+.fcw {
+  color: white;
+}
+
+.fcb {
+  color: black;
+}
+
+.fcr {
+  color: #fb0014;
+}
+
+.mt1 {
+  margin-top: 2%;
+}
+
+.mt2 {
+  margin-top: 4%;
+}
+
+.mt3 {
+  margin-top: 6%;
+}
+
+.mt4 {
+  margin-top: 8%;
+}
+
+.mt5 {
+  margin-top: 10%;
+}
+
+.p1 {
+  padding: 2%;
+}
+
+.p2 {
+  padding: 4%;
+}
+
+.p3 {
+  padding: 6%;
+}
+
+.p4 {
+  padding: 8%;
+}
+
+.p5 {
+  padding: 10%;
+}
+
+.title1 {
+  font-size: 6.5vw;
+}
+
+.title2 {
+}
+
+.title3 {
+  font-size: 4vw;
+}
+
+.title4 {
+  font-size: 4vw;
+}
+
+.title5 {
+  font-size: 3.5vw;
+}
+
+.main-text {
+  font-size: 3.5vw;
+}
+
+.hr1 {
+  border: 1px solid white;
+  background-color: white;
+  width: 85%;
+  margin: 2% auto;
+}
+
+.hr2 {
+  border: 4px solid black;
+  background-color: black;
+  margin: -2% auto 0 auto;
+}
+
+.hr3 {
+  border: 2px solid #e8eceb;
+  background-color: #e8eceb;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.row1-container1 {
+  background-color: #fb0014;
+}
+
+.img1 {
+  width: 100%;
+}
+
+.img2 {
+  width: 75%;
+}
+
+.img3 {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
+.img4 {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 1px; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #fb0014; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.row3 {
+
+}
+
+.row4 {
+
+}
+
+.disc {
+    font-size: 2.5vw;
+}
